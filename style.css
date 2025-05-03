@@ -1,0 +1,105 @@
+body {
+  background-color: black;
+}
+.card-img-front {
+  height: 400px;
+  width: 450px;
+}
+h4 {
+  color: red;
+}
+
+h5 {
+  color: darkslategray;
+  font-weight: bold;
+}
+.fa-square-twitter {
+  font-size: 40px;
+  color: skyblue;
+}
+.fa-youtube {
+  font-size: 40px;
+  color: red;
+}
+.fa-instagram {
+  font-size: 40px;
+  color: pink;
+}
+.fa-facebook {
+  font-size: 40px;
+  color: blue;
+}
+.fa-linkedin {
+  font-size: 40px;
+  color: blue;
+}
+.fa-github {
+  font-size: 40px;
+  color: white;
+}
+.icons {
+  display: flex;
+  justify-content: start;
+  gap: 40px;
+}
+
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  font: bold;
+}
+.service-card {
+  flex: 0 1 calc(25%- 25px);
+
+  width: 200px;
+  height: 150px;
+  border: 3px solid;
+  border-radius: 5px;
+  text-align: center;
+  background-color: black;
+  padding: 15px;
+}
+.fa-html5 {
+  font-size: 80px;
+  color: orangered;
+}
+.fa-css3-alt {
+  font-size: 80px;
+  color: blue;
+}
+.fa-bootstrap {
+  font-size: 80px;
+}
+.fa-js {
+  font-size: 80px;
+  color: yellow;
+}
+.fa-node-js {
+  font-size: 80px;
+  color: green;
+}
+
+.fa-react {
+  font-size: 80px;
+  color: skyblue;
+}
+.skils-icon {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+.button a {
+  border-radius: 2px;
+
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
